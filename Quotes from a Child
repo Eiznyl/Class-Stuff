@@ -1,0 +1,9 @@
+#comment, not code lol.
+
+print ("Soometimes we all get sad in life...")
+print ("But you know that's ok,")
+print ("Because we all get sad sometimes")
+print ("So what's your name?")
+name = input()
+print ("So your name is ' + Eiznyl + ' ?)
+print ("Sounds awesome")
