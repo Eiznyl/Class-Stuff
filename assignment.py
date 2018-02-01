@@ -18,9 +18,19 @@ while(True):
 		print('Hello World')
 	elif choice == '8':
 		break
-	else:
-		print("Invalid choice...")
-	if choice == '2':
-		from codeformenuthing import *
-		name 
+	elif choice == '2':
+		user = input('Enter your name:')
+		print('Hello', user)
+	elif choice == '3':
+		n = int(input("Enter preferred number:"))
+		sum1 = 0
+		while(n > 0):
+			sum1 = sum1 + n
+			n = n - 1
+		print("Calculated sum:", sum1)
+
+
+ 
+
+		
 
