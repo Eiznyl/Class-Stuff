@@ -41,7 +41,16 @@ while(True):
 				print(i*j, end='')
 				print(' ' *(10-(len(str(i*j)))), end='')
 			print('\n')
+	elif choice == '4':
+		num = int(input('Enter preferred number:'))
+		sum1 = 0
+		for i in range(0,num + 1):
+        		if not i % 5 or not i % 3:
+                		sum1 = sum1 + i
+		print(sum1)
 
+
+	
 
  
 
